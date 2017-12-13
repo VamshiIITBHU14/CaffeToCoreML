@@ -45,6 +45,11 @@ For those who want to skip the conversion part and directly use FlowerClassifier
 
 Just download the .mlmodel, drag and drop it into your project directory and test the ap on different flowers in real world.
 
+***Final project looks like this:***
+
+<img width="465" alt="screen shot 2017-12-13 at 5 40 17 pm" src="https://user-images.githubusercontent.com/21070922/33938271-dbc2c69a-e02c-11e7-95a7-f3c0e608e59a.png">
+
+
 
 
 
