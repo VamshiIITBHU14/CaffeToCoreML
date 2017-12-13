@@ -15,7 +15,7 @@ Also note that this conversion from `.caffemodel to .mlmodel` is only possible w
 
 Once downloaded the above mentioned three files, here are the steps used for conversion:
 
-1) Put all the three downloaded files in a folder say FlowerClassifier.
+1) Put all the three downloaded files in a folder, say FlowerClassifier.
 2) Add a python file, say convert-script.py in the same folder.
 3) Add the script below to your convert-script.py file.
 
@@ -33,6 +33,18 @@ image_input_names = 'data'
 
 coreml_model.save('FlowerClassifier.mlmodel')
 ```
+
+4) Now, launch Terminal in your Mac, activate Python2.7 using command ```source python27/bin/activate```
+
+5) Then cd into your folder (***FlowerClassifier***)
+6) Then run the script using command ```python convert-script.py```.
+
+Voila! 2-3 minutes later you will have your FlowerClassifier.ml model present in your FlowerClassifier folder. 
+
+For those who want to skip the conversion part and directly use FlowerClassifier.mlmodel , you can download it here (https://drive.google.com/file/d/0B1ghKa_MYL6meDBHT2NaZGxkNzQ/view) . Please note that I have not uploaded this model in my project owing to size constraints. 
+
+Just download the .mlmodel, drag and drop it into your project directory and test the ap on different flowers in real world.
+
 
 
 
