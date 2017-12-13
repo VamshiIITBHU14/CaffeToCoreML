@@ -7,9 +7,9 @@ most famous Deep Learning frameworks used to train ML models (more details here:
 
 Here, I took up a **Caffe model for the Oxford 102 flower dataset**, which was converted to **CoreML model** using **coremltools python package**.
 
-`oxford102.caffemodel` can be downloaded at https://drive.google.com/uc?export=download&confirm=PXEh&id=0B0HbJVlOlJ3SVVNyMDQwR3FRYWc . Please not that along with 'oxford102.caffemodel`, we will also need `flower-labels.txt` and `deploy.prototxt` files in order to successfully **convert .caffemodel to .mlmodel** 
+`oxford102.caffemodel` can be downloaded at https://drive.google.com/uc?export=download&confirm=PXEh&id=0B0HbJVlOlJ3SVVNyMDQwR3FRYWc . Please not that along with `oxford102.caffemodel`, we will also need `flower-labels.txt` and `deploy.prototxt` files in order to successfully **convert .caffemodel to .mlmodel** 
 
-Also note that this conversion from .caffemodel to .mlmodel is only possible with Python2.7
+Also note that this conversion from `.caffemodel to .mlmodel` is only possible with `**Python2.7**`
 
 
 
